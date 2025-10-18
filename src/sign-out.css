@@ -2,42 +2,40 @@
 
 .con {
     text-align: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f0f0f0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-image: url(second.jpg);
-    max-width: 3000px;
-    min-height: 2000px;
     margin: 0 auto;
-  }
-  
-  a {
+    padding: 30px;                  /* slightly increased padding */
+    border: 1px solid #ccc;
+    border-radius: 10px;            /* slightly rounder corners */
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* a bit stronger shadow */
+    background-image: url(second.jpg);
+    background-size: cover;          /* ensure full cover */
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1200px;               /* more reasonable max-width */
+    min-height: 800px;               /* slightly smaller min-height */
+}
+
+a {
     font-size: 24px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 12px 0;                 /* small spacing adjustment */
     color: #333;
     text-decoration: none;
-  }
-  
-  button {
+}
+
+button {
     background-color: #e74c3c;
     color: #fff;
     border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
+    border-radius: 5px;              /* slightly rounder */
+    padding: 12px 22px;              /* slightly adjusted padding */
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #c0392b;
-  }
-  
-  /* Center the button */
-  button {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;               /* adjusted spacing */
+}
+
+button:hover {
+    background-color: #c0392b;
 }

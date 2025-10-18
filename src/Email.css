@@ -1,23 +1,34 @@
-
 .emailinput {
-    flex-direction: row;
-    width: 500px;
-    margin-left: 10px;
-    font-weight: bold;
-    font-size: 01em;
-  }
-  .emailbutton {
-    margin-left: 50px;
-    font-size: 25px;
-    background: #9b9c9c;
-    height: 40px;
-    color: rgb(0, 0, 0);
-  }
-  .emailbutton:hover {
-    margin-left: 50px;
-    font-size: 25px;
-    background: #c7c7c7;
-    height: 40px;
-    color: rgb(0, 0, 0);
-  }
-  
+  display: flex;            /* ensure it's flex container */
+  flex-direction: row;
+  width: 500px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 1em;           /* corrected from 01em */
+  padding: 5px 10px;        /* small padding for better look */
+  border: 1px solid #ccc;   /* subtle border */
+  border-radius: 5px;       /* slightly rounded corners */
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.emailinput:focus {
+  border-color: #61dafb;    /* highlight on focus */
+}
+
+.emailbutton {
+  margin-left: 50px;
+  font-size: 25px;
+  background: #9b9c9c;
+  height: 40px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;       /* match input radius */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.emailbutton:hover {
+  background: #c7c7c7;
+  transform: scale(1.05);   /* slight pop effect on hover */
+}
