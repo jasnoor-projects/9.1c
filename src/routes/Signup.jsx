@@ -2,7 +2,8 @@
 import React, { useState } from 'react'
 import Input from '../Input'
 import { Link, useNavigate } from 'react-router-dom'
-// import './SignUp.css'
+import '../Signup.css';
+
 import { createAuthUserWithEmailAndPassword, createUserDocFromAuth } from '../firebase'
 
 const Signup = (props) => {

@@ -1,88 +1,54 @@
-/* Login.css */
-
-/* Common styles for body and container */
-.body, .container {
+.login-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 16px; /* Base font size */
-  box-sizing: border-box;
-}
-
-.body {
   height: 100vh;
-  background: linear-gradient(135deg, #393939, #1c1c1c); /* subtle gradient for depth */
+  background: linear-gradient(135deg, #393939, #1c1c1c);
   color: #fff;
-  padding: 20px;
 }
 
-.container {
-  width: 100%;
-  max-width: 400px;          /* constrain form width */
-  background-color: #f8f9fa; /* lighter, soft background */
+.login-container {
+  background-color: #f8f9fa;
   padding: 30px 25px;
-  border-radius: 12px;       /* slightly more rounded corners */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25); /* slightly bigger shadow for depth */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
   color: #333;
+  width: 100%;
+  max-width: 400px;
   text-align: center;
 }
 
-h1 {
+.login-container h1 {
   margin: 10px 0 20px 0;
-  font-size: 22px;           /* slightly larger heading */
-  color: #0074d9;            /* heading color matches buttons */
-}
-
-.signup {
   color: #0074d9;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 15px 0;
-  transition: color 0.3s ease;
 }
 
-.signup:hover {
-  text-decoration: underline;
-  color: #0056b3;
-}
-
-/* Input fields */
-input[type="text"],
-input[type="password"] {
+.login-container input {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
   border: 1px solid #ccc;
   border-radius: 6px;
-  box-sizing: border-box;
-  transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus {
+.login-container input:focus {
   border-color: #0074d9;
   box-shadow: 0 0 5px rgba(0,116,217,0.4);
   outline: none;
 }
 
-/* Buttons */
-.button, .button2 {
+.login-btn {
   background-color: #0074d9;
-  color: #fff;
+  color: white;
   padding: 12px 25px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 15px;
   font-size: 16px;
-  font-weight: 500;
-  transition: background 0.3s ease, transform 0.2s ease;
+  margin-top: 10px;
 }
 
-.button:hover, .button2:hover {
+.login-btn:hover {
   background-color: #0056b3;
-  transform: scale(1.03); /* subtle pop effect on hover */
 }
