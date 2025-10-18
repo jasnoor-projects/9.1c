@@ -1,26 +1,27 @@
-/* Signup.css */
-
+/* Signup Container */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f2f2f2;  /* slightly softer background */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;       /* slightly rounder corners */
+    margin: 100px auto;
+    background-color: #e0f7e9;   /* same light sea green */
+    padding: 40px 30px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
-    font-size: 26px;           /* a little bigger for clarity */
-    color: #333;
+    font-size: 38px;
+    color: #1b5e20;              /* dark green */
     margin-bottom: 20px;
+    text-align: center;
 }
 
 label {
     font-size: 16px;
-    color: #444;               /* slightly darker text */
+    color: #2e7d32;
     margin-top: 10px;
 }
 
@@ -28,33 +29,41 @@ input[type="text"],
 input[type="email"],
 input[type="password"] {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin: 5px 0;
-    border: 1px solid #bbb;    /* slightly darker border */
-    border-radius: 5px;        /* subtle rounding */
-    box-sizing: border-box;
+    border: 1px solid #66bb6a;
+    border-radius: 8px;
     font-size: 16px;
+    box-sizing: border-box;
+    background: #f1f8f2;         /* soft greenish background */
+    color: #1b5e20;
 }
 
 .button {
-    background-color: #0074d9;
+    background-color: #43a047;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
-    border-radius: 5px;        /* subtle rounding */
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #2e7d32;
+    transform: scale(1.05);
 }
 
 .link {
-    color: #0074d9;
+    color: #43a047;
     text-decoration: none;
     font-weight: bold;
     margin-top: 10px;
+    text-align: center;
+    display: block;
 }
 
 .link:hover {

@@ -1,121 +1,121 @@
+/* Common Container for Login */
 .container {
   display: flex;
   flex-direction: column;
-  margin: 200px auto 50px auto;  /* top and bottom spacing */
-  background: #ffffff;
-  padding: 40px 30px 30px 30px;  /* more consistent padding */
-  width: 600px;
-  border-radius: 12px;            /* slightly more rounded corners */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* subtle shadow for depth */
+  align-items: center;          /* center horizontally */
+  justify-content: center;      /* center vertically */
+  margin: 100px auto;           /* margin for vertical spacing */
+  background: #e0f7e9;          /* light sea green background */
+  padding: 40px 30px 30px 30px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;                       /* slightly increased spacing */
+  gap: 10px;
   width: 100%;
-  margin-top: 10px;                /* reduced top margin for balance */
 }
 
 .text {
-  color: #000000;
+  color: #1b5e20;              /* dark green for heading */
   font-size: 48px;
   font-weight: 700;
+  text-align: center;
 }
 
 .text1 {
-  color: #000000;
+  color: #2e7d32;
   font-size: 38px;
   font-weight: 700;
+  text-align: center;
 }
 
 .underline {
-  width: 61px;
+  width: 70px;
   height: 6px;
-  background-color: #000000;
+  background-color: #66bb6a;   /* green accent */
   border-radius: 9px;
   margin-top: 5px;
 }
 
 .inputs {
-  margin-top: 40px;                /* slightly reduced spacing */
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
-  gap: 20px;                       /* consistent gap between inputs */
+  gap: 20px;
+  width: 100%;
 }
 
 .input {
   display: flex;
   align-items: center;
-  margin: auto;
-  width: 480px;
-  height: 70px;                     /* slightly smaller height */
-  background: #f0f0f0;              /* softer gray */
-  border-radius: 8px;               /* slightly more rounded */
-  padding: 0 20px;                  /* add padding inside input box */
+  width: 100%;
+  height: 60px;
+  background: #f1f8f2;          /* soft greenish background */
+  border-radius: 8px;
+  padding: 0 20px;
 }
 
 .input img {
-  margin-right: 15px;               /* reduced margin for better spacing */
+  margin-right: 15px;
 }
 
 .input input {
-  height: 50px;
-  width: 100%;                      /* fill remaining space */
+  height: 40px;
+  width: 100%;
   background: transparent;
   border: none;
   outline: none;
-  color: #555555;                   /* slightly darker gray for better readability */
-  font-size: 18px;
+  color: #1b5e20;               /* dark green text */
+  font-size: 16px;
 }
 
 .forgot-password {
-  padding-left: 62px;
-  margin-top: 20px;
-  color: #797979;
-  font-size: 16px;                  /* slightly smaller for balance */
+  text-align: center;
+  margin-top: 15px;
+  color: #2e7d32;
+  font-size: 14px;
 }
 
 .forgot-password span {
-  color: #00bfff;                   /* brighter accent */
+  color: #43a047;               /* lighter green accent */
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .forgot-password span:hover {
-  color: #007bff;
+  color: #1b5e20;
 }
 
-.sumbit-container {
+.submit-container {
   display: flex;
-  gap: 20px;
-  margin: 50px auto;                /* slightly reduced spacing */
+  gap: 15px;
+  margin: 30px auto 0 auto;
 }
 
 .submit {
-  background-color: #007bff;
+  background-color: #43a047;
   color: #fff;
-  padding: 12px 25px;               /* slightly larger padding for comfort */
+  padding: 12px 25px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  text-align: center;
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 .submit:hover {
-  background-color: #0056b3;
-  transform: scale(1.03);           /* subtle pop effect on hover */
-}
-
-.submit:first-child {
-  margin-right: 10px;
+  background-color: #2e7d32;
+  transform: scale(1.05);
 }
 
 .gray {
-  background: #eaeaea;
-  color: #676767;
+  background: #a5d6a7;
+  color: #fff;
 }
