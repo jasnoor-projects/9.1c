@@ -23,7 +23,7 @@
   }
   
   button {
-    background-color: #e74c3c;
+    background-color: #88d6f0;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -33,7 +33,7 @@
   }
   
   button:hover {
-    background-color: #c0392b;
+    background-color: #438cbe;
   }
   
   /* Center the button */

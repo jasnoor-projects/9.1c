@@ -11,13 +11,13 @@
     font-size: 25px;
     background: #6ec1e4; /* new background: soft sky blue */
     height: 40px;
-    color: rgb(255, 255, 255); /* new text color: white */
+    color: rgb(237, 146, 146); /* new text color: white */
 }
 
 .emailbutton:hover {
     margin-left: 50px;
     font-size: 25px;
-    background: #3b8dbd; /* darker blue on hover */
+    background: #67baac; /* darker blue on hover */
     height: 40px;
-    color: rgb(255, 255, 255); /* keep text white */
+    color: rgb(224, 149, 149); /* keep text white */
 }
