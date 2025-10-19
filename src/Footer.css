@@ -1,40 +1,36 @@
-/* ---------------- Reset ---------------- */
+/* Reset default margins and paddings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ---------------- Footer Container ---------------- */
+/* Footer Styles */
 .green-footer {
     background-color: #1a1f2b; /* deep navy background */
     color: #f0e6f6; /* soft lavender text */
-    padding: 30px 20px; /* added horizontal padding for small screens */
+    padding: 30px 0;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%; /* full width */
 }
 
-/* ---------------- Footer Sections ---------------- */
 .footer-section {
     margin-bottom: 20px;
     flex: 1;
-    min-width: 180px; /* ensure responsiveness */
     max-width: 220px;
 }
 
 .footer-section h4 {
-    font-size: 18px;
-    margin-bottom: 12px;
+    font-size: 20px;
+    margin-bottom: 15px;
     font-weight: bold;
     color: #ff6f61; /* vibrant coral headings */
 }
 
 .footer-section ul {
     list-style: none;
-    padding-left: 0;
 }
 
 .footer-section ul li a {
@@ -49,28 +45,23 @@
     color: #e64553; /* darker coral on hover */
 }
 
-/* ---------------- Centered Content / Legal ---------------- */
 .footer-center-content {
     text-align: center;
     margin-top: 15px;
-    flex-basis: 100%; /* takes full row */
-    font-size: 14px;
-    color: #dcdcdc; /* subtle lighter text */
+    flex-basis: 100%;
 }
 
-/* ---------------- Horizontal Links ---------------- */
 .horizontal-line {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    flex-wrap: wrap; /* wrap on small screens */
-    gap: 15px;
 }
 
 .horizontal-line a {
     color: #fdf6f0; /* ivory links */
     text-decoration: none;
+    margin: 0 15px;
     transition: color 0.3s ease;
 }
 
@@ -79,26 +70,9 @@
     text-decoration: underline;
 }
 
-/* ---------------- Social Media Icons ---------------- */
+/* Social Media Icons */
 .footer-section ul li a i {
     margin-right: 5px;
     color: #ff9f1c; /* golden accent for icons */
 }
 
-/* ---------------- Responsive Adjustments ---------------- */
-@media screen and (max-width: 768px) {
-    .green-footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-section {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .horizontal-line {
-        gap: 10px;
-        margin-top: 15px;
-    }
-}
