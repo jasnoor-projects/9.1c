@@ -1,104 +1,128 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-top: 200px;
-    background: rgb(169, 89, 89);
-    padding-bottom: 30px;
-    width: 600px;
-    border-radius: 10px;
-  }
-  .header{
+    align-items: center;       /* center horizontally */
+    justify-content: center;   /* center vertically */
+    margin: 0 auto;
+    padding: 20px 20px 40px 20px;
+    background: #2a2f3e;
+    width: 90%;                /* responsive width */
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-image {
+    width: 100%;               /* fills container width */
+    max-width: 400px;          /* cap image width */
+    height: auto;              /* maintain aspect ratio */
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 9px;
+    gap: 10px;
     width: 100%;
     margin-top: 30px;
-  }
-  .text{
-      color: #000000;
-      font-size: 48px;
-      font-weight: 700;
-  }
-  .text1{
-    color: #000000;
+}
+
+.text {
+    color: #f0e6f6; /* soft lavender heading */
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text1 {
+    color: #ff6f61; /* vibrant coral subheading */
     font-size: 38px;
     font-weight: 700;
-  }
-  
-  .underline{
+}
+
+.underline {
     width: 61px;
-    height: 6px;background-color: #000000;
+    height: 6px;
+    background-color: #6a4c93; /* deep purple accent */
     border-radius: 9px;
-  }
-  .inputs{
+}
+
+.inputs {
     margin-top: 55px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-  }
-  
-  .input{
+}
+
+.input {
     display: flex;
     align-items: center;
     margin: auto;
     width: 480px;
     height: 80px;
-    background: #71b9dd;
-    border-radius: 6px;
-  }
-  .input img{
-    margin: 0px 30px;
-  }
-  
-  .input input
-  {
+    background: #fdf6f0; /* ivory input background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input img {
+    margin: 0 30px;
+}
+
+.input input {
     height: 50px;
     width: 400px;
     background: transparent;
     border: none;
     outline: none;
-    color: #71b9dd;
+    color: #2e4057; /* slate text */
     font-size: 19px;
-  }
-  .forgot-password{
+}
+
+.forgot-password {
     padding-left: 62px;
     margin-top: 27px;
-    color: #71b9dd;
+    color: #ff9f1c; /* golden accent for links */
     font-size: 18px;
-  }
-  .forgot-password span{
-    color: aqua;
+}
+
+.forgot-password span {
+    color: #e68a00; /* darker gold for hover-style emphasis */
     cursor: pointer;
-  }
-  .sumbit-container{
+}
+
+.sumbit-container {
     display: flex;
     gap: 30px;
     margin: 60px auto;
-  }
-  .submit{
-    background-color: #007bff;
-    color: #fff;
+    justify-content: center;
+}
+
+.submit {
+    background-color: #6a4c93; /* deep purple button */
+    color: #fdf6f0; /* ivory text */
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-  }
-  
-  .submit:hover {
-    background-color: #0056b3;
-  }
-  
-  .submit:first-child {
+}
+
+.submit:hover {
+    background-color: #52307d; /* darker purple hover */
+}
+
+.submit:first-child {
     margin-right: 10px;
-  }
-  
-  .gray{
-    background: #eaeaea;
-    color: #71b9dd;
-  }
+}
+
+.gray {
+    background: #dcdcdc; /* soft gray background for secondary buttons */
+    color: #6a4c93; /* deep purple text */
+}

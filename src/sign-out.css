@@ -1,43 +1,60 @@
 /* Signout.css */
-
 .con {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f0f0f0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-image: url(second.jpg);
-    max-width: 3000px;
-    min-height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* center horizontally */
+    justify-content: center;   /* center vertically */
     margin: 0 auto;
-  }
-  
-  a {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1a1f2b;
+    background-image: url(second.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    max-width: 1200px;         /* limit container width */
+    min-height: 100vh;         /* take full viewport height */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.logout-image {
+    width: 100%;
+    max-width: 600px;         /* cap image width */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+a {
     font-size: 24px;
     font-weight: bold;
     margin: 10px 0;
-    color: #333;
+    color: #ff6f61; /* vibrant coral links */
     text-decoration: none;
-  }
-  
-  button {
-    background-color: #88d6f0;
-    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e64553; /* darker coral on hover */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #ff9f1c; /* golden orange button */
+    color: #fdf6f0; /* ivory text */
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #438cbe;
-  }
-  
-  /* Center the button */
-  button {
-    display: block;
-    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68a00; /* darker gold on hover */
+    color: #1a1f2b; /* deep navy text for contrast */
 }

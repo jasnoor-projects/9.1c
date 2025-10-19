@@ -4,21 +4,21 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #1a1f2b; /* deep navy background */
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(26, 31, 43, 0.4); /* subtle dark shadow */
   border-radius: 8px;
 }
 
 h1 {
   font-size: 24px;
-  color: #333;
+  color: #f0e6f6; /* soft lavender heading */
   margin-bottom: 20px;
 }
 
 label {
   font-size: 16px;
-  color: #333;
+  color: #f5c27a; /* warm gold text */
   margin-top: 10px;
 }
 
@@ -28,28 +28,31 @@ input[type="password"] {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
-  border: 2px solid #e7a3c7;
+  border: 2px solid #ff6f61; /* vibrant coral border */
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 16px;
+  background-color: #fdf6f0; /* very light cream background */
+  color: #2e4057; /* slate text */
 }
 
 .button {
-  background-color: #0074d9;
-  color: #fff;
+  background-color: #6a4c93; /* rich purple */
+  color: #fdf6f0; /* ivory text */
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  transition: background 0.3s ease;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #52307d; /* darker purple on hover */
 }
 
 .link {
-  color: #0074d9;
+  color: #ff9f1c; /* amber/golden link */
   text-decoration: none;
   font-weight: bold;
   margin-top: 10px;
@@ -57,4 +60,5 @@ input[type="password"] {
 
 .link:hover {
   text-decoration: underline;
+  color: #e68a00; /* darker amber on hover */
 }

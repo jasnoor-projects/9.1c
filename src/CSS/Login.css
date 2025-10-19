@@ -9,19 +9,19 @@
 
 .body {
   height: 100vh;
-  background-color: #393939;
-  color: #fff;
+  background-color: #0f1e2e; /* midnight blue background */
+  color: #f0e6f6; /* soft lavender text */
 }
 
 .container {
   height: auto;
-  background-color: #f0f0f0;
+  background-color: #fff3e6; /* pale apricot */
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(15, 30, 46, 0.3); /* subtle deep shadow */
 }
 
 .signup {
-  color: #0074d9;
+  color: #ff6f61; /* coral pink */
   text-decoration: none;
   font-weight: bold;
   margin-bottom: 20px;
@@ -29,17 +29,18 @@
 
 .signup:hover {
   text-decoration: underline;
+  color: #e64553; /* darker coral on hover */
 }
 
 h1 {
   margin: 10px 0;
   font-size: 18px;
-  color: #333;
+  color: #2e4057; /* muted navy for headings */
 }
 
 .button, .button2 {
-  background-color: #0074d9;
-  color: #fff;
+  background-color: #6a4c93; /* rich purple */
+  color: #fdf6f0; /* ivory text */
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -48,10 +49,11 @@ h1 {
   display: inline-block;
   margin-top: 10px;
   font-size: 16px;
+  transition: background 0.3s ease;
 }
 
 .button:hover, .button2:hover {
-  background-color: #0056b3;
+  background-color: #52307d; /* darker purple on hover */
 }
 
 input[type="text"],
@@ -59,7 +61,9 @@ input[type="password"] {
   width: 100%;
   padding: 10px;
   margin: 5px 0;
-  border: 2px solid #391126;
+  border: 2px solid #ff9f1c; /* bright amber border */
   border-radius: 4px;
   box-sizing: border-box;
+  background-color: #fff8f0; /* very light apricot background */
+  color: #2e4057; /* text color for readability */
 }

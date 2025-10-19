@@ -1,43 +1,47 @@
 .footer {
     display: flex;
     padding-left: 100px;
-  
-    background: #348388;
+    background: #2a9d8f; /* refreshed teal tone */
     height: 300px;
     width: 1020px;
     font-weight: bold;
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 2px;
-  }
-  
-  .footeritem {
+    color: #ffffff; /* white text for clarity */
+}
+
+.footeritem {
     flex: 20px;
-  }
-  
-  .footerdev {
+}
+
+.footerdev {
     font-weight: bold;
     font-family: 'PT Sans Narrow', sans-serif;
     margin-top: -23px;
     letter-spacing: 2px;
-    background: #348388;
+    background: #21867a; /* slightly darker teal for separation */
     height: 70px;
     width: 1120px;
-  }
-  .icon {
+    color: #f5f5f5;
+}
+
+.icon {
     display: flex;
-  }
-  .Deakin {
+}
+
+.Deakin {
     display: flex;
     justify-content: center;
-  }
-  .footerlast {
+}
+
+.footerlast {
     display: flex;
     padding-left: 100px;
-  
-    background: #348388;
+    background: #247b72; /* deeper teal to distinguish final section */
     height: 100px;
     width: 1020px;
     font-weight: bold;
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 2px;
-  }
+    color: #f2f2f2;
+}
