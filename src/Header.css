@@ -2,91 +2,72 @@
 
 /* Base styles */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 24px;          /* slightly more padding */
-  background-color: #000000;
-  color: #ffffff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* subtle shadow for depth */
-}
-
-.navbar-brand {
-  font-size: 26px;             /* slightly larger */
-  font-weight: bold;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.search-box {
-  flex: 1;
-  margin: 0 20px;
-}
-
-.search-box input[type="text"] {
-  width: 100%;
-  padding: 10px 12px;          /* better padding for typing */
-  border: 1px solid #ccc;      /* subtle border */
-  border-radius: 6px;          /* slightly rounded corners */
-  outline: none;
-  transition: border 0.3s ease, box-shadow 0.3s ease;
-}
-
-.search-box input[type="text"]:focus {
-  border-color: #0074d9;
-  box-shadow: 0 0 5px rgba(0, 116, 217, 0.5); /* subtle focus glow */
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  gap: 15px;                   /* spacing between list items */
-}
-
-ul li {
-  margin: 0;
-}
-
-/* Styling for the button */
-button {
-  background-color: #0074d9;
-  color: #fff;
-  padding: 10px 22px;          /* slightly bigger for better click area */
-  border: none;
-  border-radius: 6px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-button:hover {
-  background-color: #005bb5;   /* darker on hover */
-  transform: scale(1.05);      /* subtle pop effect */
-}
-
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
   }
-
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
   .search-box {
-    margin: 10px 0;             /* add vertical spacing */
-    width: 100%;
+    flex: 1;
+    margin: 0 20px;
   }
-
+  
+  .search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
   ul {
-    flex-wrap: wrap;
-    gap: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
   }
-
-  button {
-    width: 100%;
-    text-align: center;
+  
+  ul li {
+    margin: 0 10px;
   }
+  
+ /* Styling for the button */
+button {
+  background-color: #0074d9; /* Change this to your desired button background color */
+  color: #fff; /* Change this to your desired button text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
+
+/* Styling for the link inside the button */
+button .button {
+  text-decoration: none;
+  color: #fff; /* Change this to your desired link text color */
+}
+
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .search-box {
+      margin-top: 10px;
+    }
+  }

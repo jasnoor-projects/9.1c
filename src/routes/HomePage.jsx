@@ -1,19 +1,17 @@
-
-
 import React from 'react';
-import '../index.css';
+import '../CSS/index.css';
 import Image from '../image';
 import Header from '../Header';
 import Footer from '../Footer';
 
 function Homepage() {
   return (
-    <div>
-      <Header />
-      <Image />
-      <Footer />
-    </div>
-  )
-}
+  <div className="homepage">
+    <Header />
+    <Image />
+    <Footer />
+  </div>
+)
 
+}
 export default Homepage

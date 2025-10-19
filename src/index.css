@@ -1,22 +1,13 @@
 body {
   margin: 0;
-  padding: 0; /* ensures no default padding */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  font-size: 16px;               /* consistent base font size */
-  line-height: 1.6;              /* improves readability */
-  color: #333;                   /* slightly softer text color */
-  background-color: #fff;        /* default background */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  background-color: #f4f4f4;     /* subtle background for code blocks */
-  padding: 2px 6px;              /* small padding for readability */
-  border-radius: 4px;            /* slight rounding */
-  font-size: 0.95em;             /* slightly smaller than body text */
-  color: #d6336c;                /* standout color for code text */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

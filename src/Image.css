@@ -1,25 +1,18 @@
 .background-image {
   background-image: url('first.jpg');
-  background-size: contain;      /* scale image to fit without cropping */
-  background-position: center;   /* center the image */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  display: flex;                 /* allows you to center content over image */
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
   overflow: hidden;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
 }
-

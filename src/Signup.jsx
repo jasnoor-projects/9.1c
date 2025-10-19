@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Input from '../Input'
 import { Link, useNavigate } from 'react-router-dom'
-import '../CSS/Signup.css'
+// import './SignUp.css'
 import { createAuthUserWithEmailAndPassword, createUserDocFromAuth } from '../firebase'
 
 const Signup = (props) => {
@@ -50,7 +50,7 @@ const Signup = (props) => {
 
 
 
-    return <div className='container'>
+    return <div className='center'>
         <h1> Create a Deakin Account</h1>
         <label for='displayName'>Name*</label>
         <Input
@@ -98,7 +98,7 @@ const Signup = (props) => {
         <br></br>
         <br></br>
 
-        <Link  className= "button" to='/login'>
+        <Link to='/login'>
             Login
         </Link>
     </div>
