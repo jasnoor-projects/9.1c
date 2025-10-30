@@ -47,9 +47,6 @@ const Signup = (props) => {
 
         }
     }
-
-
-
     return <div className='container'>
         <h1> Create a Deakin Account</h1>
         <label for='displayName'>Name*</label>
